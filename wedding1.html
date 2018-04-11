@@ -2,41 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>
-      Jung&Park
-    </title>
+    <title>Jung&Park</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-      H1 {
-        FONT-size: 45px;
-        text-align: center;
-        border-bottom: 1px solid gray;
-        padding-bottom: 10px;
-        margin:0;
-      }
-      ul {
-        border-right: 1px solid gray;
-        width: 150px;
-        margin: 0;
-        padding-top: 20px;
-        padding-bottom: 20px;
-      }
-      li {
-        padding: 5px;
-      }
-      a {
-        text-decoration: none;
-      }
-      #grid{
-        display: grid;
-        grid-template-columns: 200px 1fr;
-      }
-      #article{
-        padding-left: 20px;
-      }
-      img{
-        border:5px solid gray;
-        padding:5px;
-      }
       ol{
         padding-left:10px;
       }
@@ -52,13 +20,13 @@
   </head>
   <body>
     <h1>
-      <a href="index.html">Jung&Park`s Family</a href>
+      <a href="index.html"><img src="하트.jpg" width="70">Jung&Park`s Family</a href>
     </h1>
     <div id=grid>
       <ul>
         <li><a href="wedding.html">결혼식</a></li>
           <ol>
-              <li><a href="wedding1.html">웨딩촬영</a></li>
+              <li><a href="wedding1.html" class="active">웨딩촬영</a></li>
               <li>결혼식 스냅샷</li>
               <li>신혼여행 괌</li>
           </ol>
@@ -68,10 +36,10 @@
       </ul>
       <div id=article>
         <h2>
-          "거울과 창" 웨딩촬영
+          웨딩촬영
         </h2>
         <p>
-          하남에 있는 웨딩촬영장에서 눈오는 겨울날에 촬영한 웨딩사진입니다.
+          하남 촬영장에서 눈오는 겨울날에
         </p>
         <div id=picture>
           <span>
@@ -86,29 +54,32 @@
           <span>
               <a href onclick="window.open('웨딩4.jpg','_blank','width=700,height=700')" title="벚꽃엔딩"><img src="웨딩4.jpg" width="100"></a>
           </span>
+          <span>
+              <a href onclick="window.open('웨딩5.jpg','_blank','width=700,height=700')" title="창호"><img src="웨딩5.jpg" width="100"></a>
+          </span>
+          <span>
+              <a href onclick="window.open('웨딩6.jpg','_blank','width=700,height=700')" title="함께"><img src="웨딩6.jpg" width="100"></a>
+          </span>
+          <span>
+              <a href onclick="window.open('웨딩7.jpg','_blank','width=700,height=700')" title="창호"><img src="웨딩7.jpg" width="100"></a>
+          </span>
+          <span>
+              <a href onclick="window.open('웨딩8.jpg','_blank','width=700,height=700')" title="준영"><img src="웨딩8.jpg" width="100"></a>
+          </span>
+          <span>
+              <a href onclick="window.open('웨딩9.jpg','_blank','width=700,height=700')" title="창호"><img src="웨딩9.jpg" width="100"></a>
+          </span>
+          <span>
+              <a href onclick="window.open('웨딩10.jpg','_blank','width=700,height=700')" title="창호"><img src="웨딩10.jpg" width="100"></a>
+          </span>
+          <span>
+              <a href onclick="window.open('웨딩11.jpg','_blank','width=700,height=700')" title="창호"><img src="웨딩11.jpg" width="100"></a>
+          </span>
+          <span>
+              <a href onclick="window.open('웨딩12.jpg','_blank','width=700,height=700')" title="함께"><img src="웨딩12.jpg" width="100"></a>
+          </span>
         </div>
       </div>
     </div>
-    <P>
-      <div id="disqus_thread"></div>
-      <script>
-      /**
-      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-      /*
-      var disqus_config = function () {
-      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-      };
-      */
-      (function() { // DON'T EDIT BELOW THIS LINE
-      var d = document, s = d.createElement('script');
-      s.src = 'https://jung-s-family.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-      })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </p>
     </body>
 </html>
