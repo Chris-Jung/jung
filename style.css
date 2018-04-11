@@ -9,8 +9,10 @@ ul {
   border-right: 1px solid gray;
   width: 150px;
   margin: 0;
+  padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+  list-style-type: none;
 }
 li {
   padding: 5px;
@@ -19,6 +21,7 @@ a {
   text-decoration: none;
 }
 .active {
+  font-weight: bold;
   color:red;
 }
 #grid{
@@ -31,4 +34,8 @@ a {
 #grid img{
   border:5px solid gray;
   padding:5px;
+}
+ol{
+  padding-left:10px;
+  list-style-type: none;
 }
